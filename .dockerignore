@@ -1,0 +1,5 @@
+.git
+**
+!run.sh
+!requirements.txt
+!gh_deploy*

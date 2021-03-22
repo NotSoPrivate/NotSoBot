@@ -1,0 +1,21 @@
+git+https://github.com/Rapptz/discord.py.git@master
+# git+https://github.com/NotSoSuper/discord.py-1.git@master
+git+https://github.com/NotSoSuper/py-urbandict.git
+git+https://github.com/NotSoSuper/wolframalpha.git
+git+https://github.com/NotSoSuper/imgurpython.git
+git+https://github.com/NotSoSuper/steamsearch.git
+git+https://github.com/mobilityhouse/ttldict.git
+# Python 3.8 fix not released yet...
+git+https://github.com/aio-libs/aiomysql.git
+uvloop
+parsedatetime
+python-dateutil
+# aiomysql
+ujson
+lxml
+aioredis
+tabulate
+objgraph
+sentry-sdk
+prometheus_client
+lru_dict

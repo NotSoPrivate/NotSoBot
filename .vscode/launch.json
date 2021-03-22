@@ -1,0 +1,59 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+			{
+				"name": "Remote Debug DevBot",
+				"type": "python",
+				"request": "attach",
+				"pathMappings": [
+					{
+						"localRoot": "${workspaceFolder}",  // You may also manually specify the directory containing your source code.
+						"remoteRoot": "/discord" // Linux example; adjust as necessary for your OS and situation.
+					}
+				],
+				"port": 5678,                   // Set to the remote port.
+				"host": "localhost"   // Set to your remote host's public IP address.
+		},
+		{
+			"name": "Remote Debug Shard 9",
+			"type": "python",
+			"request": "attach",
+			"pathMappings": [
+				{
+					"localRoot": "${workspaceFolder}",  // You may also manually specify the directory containing your source code.
+					"remoteRoot": "/discord" // Linux example; adjust as necessary for your OS and situation.
+				}
+			],
+			"port": 5009,                   // Set to the remote port.
+			"host": "localhost"   // Set to your remote host's public IP address.
+		},
+		{
+			"name": "Remote Debug Shard 6",
+			"type": "python",
+			"request": "attach",
+			"pathMappings": [
+				{
+					"localRoot": "${workspaceFolder}",  // You may also manually specify the directory containing your source code.
+					"remoteRoot": "/discord" // Linux example; adjust as necessary for your OS and situation.
+				}
+			],
+			"port": 5006,                   // Set to the remote port.
+			"host": "localhost"   // Set to your remote host's public IP address.
+		},
+		{
+			"name": "Remote Debug CUSTOM",
+			"type": "python",
+			"request": "attach",
+			"pathMappings": [
+				{
+					"localRoot": "${workspaceFolder}",  // You may also manually specify the directory containing your source code.
+					"remoteRoot": "/discord" // Linux example; adjust as necessary for your OS and situation.
+				}
+			],
+			"host": "localhost"   // Set to your remote host's public IP address.
+		},
+	]
+}
